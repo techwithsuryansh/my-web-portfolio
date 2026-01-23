@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suryansh Kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">TechWithSuryansh</a>
+                <div class="nav-wrapper">
+                    
+                    <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+                        <span class="sun">☀️</span>
+                        <span class="moon">🌙</span>
+                    </button>
+                    <button class="mobile-toggle" id="mobileToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Certificates Page -->
+    <section class="certificates-page">
+        <div class="container">
+            <div class="page-header">
+                <a href="index.html" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Back to Home
+                </a>
+                <h1>My Certificates</h1>
+                <p class="page-description">A collection of my professional certifications and achievements</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="cert-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="programming">Programming</button>
+                <button class="filter-btn" data-filter="webdev">Web Development</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+                <button class="filter-btn" data-filter="experience">Experiences</button>
+                <button class="filter-btn" data-filter="cloud">Cloud & DevOps</button>
+                <button class="filter-btn" data-filter="other">Other</button>
+            </div>
+
+            <!-- Certificates Grid -->
+            <div class="all-certs-grid">
+                <!-- Certificate 1 -->
+                <div class="cert-item" data-category="data">
+                    <a href="https://courses.ibmcep.cognitiveclass.ai/certificates/4cb899c57b8b4446aa129e8ed138dbee" target="_blank" class="cert-link">
+                        <img src="certification/Predictive Analytic.png" alt="Python Programming Certificate" class="cert-image">
+                        <div class="cert-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </a>
+                    <div class="cert-info">
+                        <h3>Predictive Analytic using IBM SPSS Modeler </h3>
+                        <p class="issuer">IBM</p>
+                        <p class="date">Dec 2025</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="cert-item" data-category="webdev">
+                    <a href="https://courses.ibmcep.cognitiveclass.ai/certificates/0c2edd54b8c241b3a6e02b0fb3f33d2e" target="_blank" class="cert-link">
+                        <img src="certification/front end certificate.png" alt="Full Stack Development Certificate" class="cert-image">
+                        <div class="cert-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </a>
+                    <div class="cert-info">
+                        <h3>Front End technologies</h3>
+                        <p class="issuer">IBM</p>
+                        <p class="date">Apr 2025</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="cert-item" data-category="other">
+                    <a href="https://www.hackerrank.com/certificates/7905d9a554a5" target="_blank" class="cert-link">
+                        <img src="certification/hackerrank.png" alt="JavaScript ES6+ Certificate" class="cert-image">
+                        <div class="cert-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </a>
+                    <div class="cert-info">
+                        <h3>Problem Solving (Intermediate) </h3>
+                        <p class="issuer">HackerRank</p>
+                        <p class="date">Jul 2025</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 4 -->
+                <div class="cert-item" data-category="programming">
+                    <a href="https://www.udemy.com/certificate/UC-bd88343c-45b5-473d-80d9-692af9f26a11/" target="_blank" class="cert-link">
+                        <img src="certification/udemy_certificate.jpg" alt="Data Analytics Certificate" class="cert-image">
+                        <div class="cert-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </a>
+                    <div class="cert-info">
+                        <h3>Complete Python Programming: Beginner To Advanced </h3>
+                        <p class="issuer">Udemy</p>
+                        <p class="date">Jun 2025</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 5 -->
+                <div class="cert-item" data-category="cloud">
+                    <a href="https://verify-link.com/cert5" target="_blank" class="cert-link">
+                        <img src="certification/Devop.png" alt="React Certificate" class="cert-image">
+                        <div class="cert-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </a>
+                    <div class="cert-info">
+                        <h3>DevOps Learning Track</h3>
+                        <p class="issuer">Google Cloud</p>
+                        <p class="date">January 2026</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 6 -->
+                <div class="cert-item" data-category="cloud">
+                    <a href="https://verify-link.com/cert6" target="_blank" class="cert-link">
+                        <img src="certification/AIML.png" alt="AWS Certificate" class="cert-image">
+                        <div class="cert-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </a>
+                    <div class="cert-info">
+                        <h3>AI/ML</h3>
+                        <p class="issuer">Google Cloud</p>
+                        <p class="date">January 2026</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 7 -->
+                <div class="cert-item" data-category="cloud">
+                    <a href="https://verify-link.com/cert7" target="_blank" class="cert-link">
+                        <img src="certification/Networking.png" alt="Java Certificate" class="cert-image">
+                        <div class="cert-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </a>
+                    <div class="cert-info">
+                        <h3>Networking</h3>
+                        <p class="issuer">Google Cloud</p>
+                        <p class="date">January 2026</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 8 -->
+                <div class="cert-item" data-category="experience">
+                    <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Sj7temL583QAYpHXD/E6McHJDKsQYh79moz_Sj7temL583QAYpHXD_695c77e85e28f391b92c6c25_1769141126831_completion_certificate.pdf" target="_blank" class="cert-link">
+                        <img src="certification/forage.png" alt="Machine Learning Certificate" class="cert-image">
+                        <div class="cert-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </a>
+                    <div class="cert-info">
+                        <h3>Software Engineering Job Simulation</h3>
+                        <p class="issuer">JP Morgan chase & co.</p>
+                        <p class="date">January 2026</p>
+                    </div>
+                </div>
+
+                <!-- Certificate 9 -->
+                <div class="cert-item" data-category="other">
+                    <a href="https://www.ijsat.org/research-paper.php?id=10103" target="_blank" class="cert-link">
+                        <img src="certification/journal.png" alt="Node.js Certificate" class="cert-image">
+                        <div class="cert-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </a>
+                    <div class="cert-info">
+                        <h3>Journal On Reinforcement Learning based Automatic Stock Trading Model</h3>
+                        <p class="issuer">IJSAT</p>
+                        <p class="date">January 2026</p>
+                    </div>
+                </div>
+
+                <!-- Add more certificates as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Built with care by Suryansh Kumar</p>
+            <p>Keep Pushing the limits 🦁</p>
+            <p>&copy; 2026 All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="certificates.js"></script>
+    
+</body>
+</html>
